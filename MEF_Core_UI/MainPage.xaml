@@ -8,6 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Loaded="Grid_Loaded_1">
+        <TextBox HorizontalAlignment="Left" Margin="668,254,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="254"/>
+        <TextBox HorizontalAlignment="Left" Margin="668,343,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="254"/>
+        <TextBlock HorizontalAlignment="Left" Margin="452,254,0,0" TextWrapping="Wrap" Text="Module Name" VerticalAlignment="Top" Height="32" Width="184" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="452,343,0,0" TextWrapping="Wrap" Text="Module Folder" VerticalAlignment="Top" Height="32" Width="157" FontSize="24"/>
+        <Button Content="Download an open Default View
+                " HorizontalAlignment="Left" Margin="452,485,0,0" VerticalAlignment="Top" Width="428" Click="Button_Click_1"/>
 
     </Grid>
 </Page>
